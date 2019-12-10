@@ -1,7 +1,7 @@
 use std::io;
 
 pub fn run() {
-    println!("\n ---------- Basic Calculator - Start ---------- \n");
+    println!("\n ---------- Basic Calculator - Started ---------- \n");
 
 	let mut number1 = String::new();
     io::stdin().read_line(&mut number1).expect("Failed to read line");
@@ -16,7 +16,7 @@ pub fn run() {
     };
     
     println!("{} - {}", nums.num1, nums.num2);
-    println!(" ---------- Basic Calculator - End ---------- \n");
+    println!(" ---------- Basic Calculator - Ended ---------- \n");
 }
 
 #[derive(Debug)]

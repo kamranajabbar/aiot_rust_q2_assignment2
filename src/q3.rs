@@ -1,3 +1,3 @@
 pub fn run() {
-    println!("Hi Kamran Jabbar, Pakistan");
+    println!("Hi Kamran Jabbar, Pakistan Zindabad");
 }
